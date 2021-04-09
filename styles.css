@@ -49,6 +49,38 @@ div.hero-section {
     padding: 10rem;
 }
 
+@media only screen and (max-width: 600px) {
+    div.hero-section {
+        padding: 5rem;
+    }
+
+    div.nav-bar {
+        padding: 1rem;
+        flex-direction: column;
+    }  
+
+    div.nav-bar .logo {
+        text-align: center;
+    }
+
+    div.nav-bar .nav-links {
+        justify-content: center;
+        margin: 5px;
+    }
+
+    div.hero-background .background {
+        height: auto;
+    }
+
+    div.snapshot-box-content {
+        flex-direction: column;
+    }
+
+    div.nav-bar {
+        width: auto;
+    }
+}
+
 div.hero-content-heading {
     text-align: center;
 }
